@@ -1,0 +1,16 @@
+li {
+  height: 45px;
+}
+
+.list-group-item {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.active {
+  border: 1px solid #333;
+}
+
+input {
+  width: 100%;
+}
