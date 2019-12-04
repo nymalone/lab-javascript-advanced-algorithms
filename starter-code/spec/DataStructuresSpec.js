@@ -50,7 +50,7 @@ describe("Stack", function() {
       expect(stack.stackControl.length).toBe(1);
     });
 
-    it ("Should return that stack is not empty when adding an element", function () {
+    it ("Should return true when is not empty when adding an element", function () {
       stack.push(19);
 
       expect(stack.isEmpty()).toBe(false);
